@@ -1,0 +1,27 @@
+name: Cache Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  cache-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Cache step
+      - name: Cache dependencies
+        id: cache-step
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/demo
+          key: cache-93cc33c
+
+      # Required grading step
+      - name: prime-cache-93cc33c
+        run: |
+          echo "Cache hit? ${{ steps.cache-step.outputs.cache-hit }}"

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "email": "23f2001235@ds.study.iitm.ac.in",
+    "version": "ff1bee7c"
+  },
+  "products": [
+    {"id":"prod-ff1bee7c-001","name":"Premium Item 1","category":"clothing","price":441.53,"stock":126,"rating":2.4},
+    {"id":"prod-ff1bee7c-002","name":"Basic Item 2","category":"electronics","price":163.91,"stock":149,"rating":1.8},
+    {"id":"prod-ff1bee7c-003","name":"Premium Item 3","category":"books","price":462.67,"stock":15,"rating":2.2},
+    {"id":"prod-ff1bee7c-004","name":"Pro Item 4","category":"books","price":457.31,"stock":6,"rating":1.6},
+    {"id":"prod-ff1bee7c-005","name":"Elite Item 5","category":"books","price":303.32,"stock":182,"rating":3.4},
+    {"id":"prod-ff1bee7c-006","name":"Elite Item 6","category":"home","price":456.5,"stock":97,"rating":1.4},
+    {"id":"prod-ff1bee7c-007","name":"Basic Item 7","category":"books","price":64.88,"stock":154,"rating":4.6},
+    {"id":"prod-ff1bee7c-008","name":"Pro Item 8","category":"home","price":295.15,"stock":140,"rating":4.2},
+    {"id":"prod-ff1bee7c-009","name":"Standard Item 9","category":"clothing","price":120.46,"stock":168,"rating":3.7},
+    {"id":"prod-ff1bee7c-010","name":"Premium Item 10","category":"clothing","price":328.6,"stock":169,"rating":4.6},
+    {"id":"prod-ff1bee7c-011","name":"Pro Item 11","category":"clothing","price":178.43,"stock":33,"rating":2.7},
+    {"id":"prod-ff1bee7c-012","name":"Basic Item 12","category":"clothing","price":481.77,"stock":155,"rating":2.6},
+    {"id":"prod-ff1bee7c-013","name":"Pro Item 13","category":"home","price":289.53,"stock":8,"rating":3.4},
+    {"id":"prod-ff1bee7c-014","name":"Premium Item 14","category":"clothing","price":419.02,"stock":10,"rating":4},
+    {"id":"prod-ff1bee7c-015","name":"Pro Item 15","category":"clothing","price":111.03,"stock":177,"rating":2.5},
+    {"id":"prod-ff1bee7c-016","name":"Pro Item 16","category":"sports","price":463.15,"stock":101,"rating":2.2},
+    {"id":"prod-ff1bee7c-017","name":"Pro Item 17","category":"electronics","price":186.63,"stock":58,"rating":4.3}
+  ],
+  "aggregations": {
+    "clothing": {
+      "count": 7,
+      "inventoryValue": 235808.51
+    }
+  }
+}
